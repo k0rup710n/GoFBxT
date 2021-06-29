@@ -1,3 +1,5 @@
+Project Almost Done
+
 Don't forget to set your GOPATH in the project directory.
 1. CD into the project main directory (Where the file main.go is).
 2. export GOPATH=$(pwd)

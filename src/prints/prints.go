@@ -14,6 +14,12 @@ func PrintBanner() {
 	color.New(color.FgYellow, color.Bold).Print(" Gremlin\n\n")
 }
 
+func PunctPrinter(sym) {
+	color.New(color.FgWhite, color.Bold).Printf("[")
+	color.New(color.FgGreen, color.Bold).Printf(sym)
+	color.New(color.FgWhite, color.Bold).Printf("]")
+}
+
 func PrintPlus() {
 	color.New(color.FgWhite, color.Bold).Printf("[")
 	color.New(color.FgGreen, color.Bold).Printf("+")
